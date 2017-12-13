@@ -1,6 +1,6 @@
 {
   "name": "fooder",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "release": "standard-version && git push — follow-tags origin master && npm publish"
+    "release": "standard-version -f && git push --follow-tags origin master && npm publish -f"
   },
   "private": true,
   "dependencies": {
